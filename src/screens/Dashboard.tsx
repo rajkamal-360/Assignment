@@ -1,4 +1,4 @@
-import {Image, Text, View} from 'react-native';
+import {Image, SafeAreaView, Text, View} from 'react-native';
 import React, {useRef, useState} from 'react';
 import {AppColors} from '../constants/colors';
 import {fp, hp, wp} from '../utils/resDimensions';
@@ -15,7 +15,7 @@ const Dashboard = () => {
         flex: 1,
         backgroundColor: AppColors.black,
       }}>
-      <View style={{marginHorizontal: wp(5)}}>
+      <SafeAreaView style={{marginHorizontal: wp(5)}}>
         <View
           style={{
             flexDirection: 'row',
@@ -41,7 +41,7 @@ const Dashboard = () => {
           style={{fontSize: fp(2), color: AppColors.white, marginTop: hp(1)}}>
           Find your credit cards here
         </Text>
-      </View>
+      </SafeAreaView>
 
       <DashboardItemGrid />
       <CardSwiper />

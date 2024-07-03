@@ -1,5 +1,5 @@
 import React from 'react';
-import {StyleSheet, useColorScheme} from 'react-native';
+import {SafeAreaView, StyleSheet, useColorScheme} from 'react-native';
 
 import {GestureHandlerRootView} from 'react-native-gesture-handler';
 import Dashboard from './src/screens/Dashboard';

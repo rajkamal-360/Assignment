@@ -8,6 +8,7 @@ export const dashboardAssets = {
   historyEdu: require('./history_edu.png'),
   waterDrop: require('./water_drop.png'),
 };
+
 export const cardImages = [
   (card_1 = require('./card_1.png')),
   (card_3 = require('./card_3.png')),

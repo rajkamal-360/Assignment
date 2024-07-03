@@ -23,8 +23,7 @@ const CardSwiper = () => {
             newData.map((item, index) => {
               console.log('🚀 ~ newData.map ~ index:', index);
               if (index > currentIndex + MAX || index < currentIndex) {
-                console.log('Exit');
-                // null;
+                null;
               }
               return (
                 <Card
